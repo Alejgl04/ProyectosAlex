@@ -1,0 +1,203 @@
+/*Estilos css*/
+
+/*Estilos de los subtitulos y parrafos del footer*/
+#foot_txt,#foot_subtitulo,#foot_parr{
+  	color:#fff;
+}
+#foot_txt{
+	text-align: justify;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10%;
+}
+#foot_parr p{
+	color:#002156;
+}
+#parraf_pcumple{
+	color: #fff;
+}
+/*----------------FIN-----------------------*/
+
+
+/*-----REDES DE SOCIAL NETWORK----------*/
+#img_redes{
+	border-bottom: 1px solid grey;
+	padding-bottom: 7%;
+	font-size: 20px;
+}
+/*----FIN-----*/
+#filaNumDos{
+	margin-top: 5%;
+}
+#banner_md{
+	background: url('../img/Abnners-1.jpg');
+	background-size: contain;
+	text-align: center;
+	padding: 4%;
+}
+#col_imagenes_slider{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+.cint_end{
+	text-align: end;
+}
+
+.redes_cinti{
+	margin: 8%;
+	margin-bottom: 0%;
+	margin-right: 2%;
+}
+
+.img_logo{
+	width: 25%;
+}
+
+.full_width{
+	width: 100%;
+}
+
+.cont_form{
+	padding: 2%;
+	background: #132031;
+	position: relative;
+	margin: auto;
+	margin-top: auto;
+	margin-top: -3%;
+}
+
+.pri_div{
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+}
+
+.sin_bor{
+	border-radius: 0%;
+	width: 85% !important;
+	margin-left: 15%;
+}
+
+.btn_div{
+	display: inline-block;
+	width: 17%;
+}
+
+.div_form{
+	display: inline-block;
+	width: 19%;
+	margin-right: 1%;
+	background-color: white;
+	border: none !important;
+}
+
+.btn_sub{
+	border-radius: 0%;
+	width: 100%;
+	margin-top: -3%;
+}
+
+/*Iconos del input*/
+#icon_input_uno,#icon_input_dos,#icon_input_tres{
+    position: absolute;
+    margin: 5px;
+    font-size: 24px;
+    color: #aba6a6;
+}
+.email_icon{
+	margin-left: 0.3% !important;
+}
+#borrar_back {
+    background-color: #132031;
+}
+#inputState{
+	margin-left: 0%;
+	width: 100% !important;	
+
+}
+
+.img-responsive{
+	margin-bottom: 3%;
+	width: 182px;
+	height: 182px;
+}
+
+.error_form{
+	font-weight: bold;
+	color: red;
+}
+
+@media (max-width: 991px){
+	.btn_div{
+		width: 16%;
+	}
+
+}
+
+@media (max-width: 768px){
+	#img_redes{
+	    padding-bottom: 10%;		
+	}
+	#col_redes{
+		text-align: start !important;
+	}
+	#icon_input_uno,#icon_input_dos,#icon_input_tres{
+		margin-left: 4% !important;
+	}
+
+}
+
+@media (max-width: 767px){
+	.cinti{
+		text-align: center !important;
+	}
+	
+
+	.redes_cinti{
+		margin-right: 2%;
+		margin-top: 0%;
+		margin-bottom: 5%;
+		margin-left: 0%;
+	}
+
+	.div_form{
+		display: block;
+		width: 100%;
+		margin-right: 0%;
+		margin-bottom: 3%;
+	}
+
+	.btn_div{
+		display: block;
+		width: 100%;
+		margin-bottom: 3%;
+	}
+
+	.cont_form{
+		position: initial;
+		margin: auto;
+	}
+
+	.btn_sub{
+		margin-top: 0%;
+	}
+}
+
+@media (max-width: 576px){
+
+	#banner_md{
+		margin-bottom: 10%;
+	}
+	.ocul_resp{
+		display: none;
+	}
+
+	#parraf_pcumple{
+		font-size: 85%;
+	}
+
+	/* .img-responsive{
+		width: 30%;
+	} */
+}
