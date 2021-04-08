@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Peugeot Panamá</title>
+	<title>Peugeot Panamá 1</title>
 	<link rel="icon" type="image/png" href="img/favicon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
